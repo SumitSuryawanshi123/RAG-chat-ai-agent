@@ -6,10 +6,6 @@
       "includeFiles": "{data/knowledge_base.jsonl,public/index.html}"
     }
   },
-  "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/index" },
-    { "source": "/", "destination": "/api/index" }
-  ],
   "headers": [
     {
       "source": "/(.*)",

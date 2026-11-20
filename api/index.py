@@ -1,8 +1,8 @@
 """Vercel serverless entrypoint.
 
-Vercel's Python runtime looks for an ASGI/WSGI object called ``app`` in
-``api/index.py``. ``vercel.json`` rewrites every ``/api/*`` request here and the
-static UI in ``public/`` is served from Vercel's CDN.
+Vercel's FastAPI support looks for an ASGI object called ``app`` in
+``api/index.py`` and routes *every* path to it (``/``, ``/api/chat``, ...).
+Do not add ``rewrites`` to ``vercel.json``: they change the path FastAPI sees.
 """
 
 import sys

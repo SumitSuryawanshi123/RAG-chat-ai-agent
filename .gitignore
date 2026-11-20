@@ -221,3 +221,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Project specific ---
+node_modules/
+data/raw/
+logs/
+.vercel/
+*.log
+!.env.example

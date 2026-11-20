@@ -1,0 +1,5 @@
+# Only needed to (re)build data/knowledge_base.jsonl locally. NOT deployed.
+playwright==1.65.2
+beautifulsoup4==4.15.0
+lxml==6.1.3
+Protego==0.7.0

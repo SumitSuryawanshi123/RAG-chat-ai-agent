@@ -1,0 +1,12 @@
+{
+  "built_at": "2026-11-20T16:04:47+00:00",
+  "chunks": 3010,
+  "chunks_per_site": {
+    "darglobal": 1563,
+    "wasalt": 1447
+  },
+  "pages_per_site": {
+    "darglobal": 226,
+    "wasalt": 128
+  }
+}

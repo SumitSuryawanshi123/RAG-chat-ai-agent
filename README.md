@@ -10,7 +10,7 @@ marketplace) using **publicly available data scraped from both websites**. Answe
 - **LLM** - OpenRouter free models with automatic fallback, SSE streaming, and a no-LLM extractive fallback.
 - **Deploy** - Python/FastAPI on **Vercel** (`vercel.json` included) **and** a production **Dockerfile**.
 
-> **Live demo:** `<your-vercel-url>` &nbsp;|&nbsp; **Health check:** `<your-vercel-url>/api/health`
+> **Live demo:** [rag-chat-ai-agent.vercel.app](https://rag-chat-ai-agent.vercel.app/) &nbsp;|&nbsp; **Health check:** [/api/health](https://rag-chat-ai-agent.vercel.app/api/health)
 
 ---
 

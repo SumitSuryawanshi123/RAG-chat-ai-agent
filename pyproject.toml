@@ -1,3 +1,17 @@
+# Vercel installs runtime dependencies from this file when it exists, so the list
+# below MUST match requirements.txt (which Docker uses). Dev/scraper-only
+# packages live in requirements-dev.txt / requirements-scrape.txt on purpose.
+[project]
+name = "darglobal-wasalt-chatbot"
+version = "1.0.0"
+description = "RAG chatbot over public DarGlobal and Wasalt website data"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi==0.165.0",
+    "httpx==0.28.1",
+    "uvicorn==0.54.0",
+]
+
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
 testpaths = ["tests"]
